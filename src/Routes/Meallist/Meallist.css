@@ -1,0 +1,514 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: Strike;
+    src: url(/src/Assets/Protest_Strike/ProtestStrike-Regular.ttf);
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(/src/Assets/Montserrat-Light.ttf);
+}
+
+@font-face {
+    font-family: Monregular;
+    src: url(/src/Assets/Montserrat/static/Montserrat-Regular.ttf);
+}
+
+.video-view {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.meal-video {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    object-fit: cover;
+}
+
+.meal-text {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    gap: 50px;
+    background-color: rgba(0,0,0,0.2);
+    padding: 100px;
+}
+
+.meal-text > h1 {
+    font-size: 80px;
+    color: #fff;
+    text-shadow: 2px 2px 2px #F4BD50;
+    text-align: center;
+    font-family: Strike;
+}
+.meal-text > h2 {
+    font-size: 50px;
+    color: #fff;
+    text-shadow: 2px 2px 2px #F4BD50;
+    text-align: center;
+    font-family: Monregular;
+}
+
+@media screen and (max-width:896px) {
+    .video-text {
+        width: 100%;
+        height: 600px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .meal-video {
+        width: 100%;
+        height: 600px;
+        display: flex;
+        object-fit: cover;
+    }
+    
+    .meal-text {
+        width: 100%;
+        height: 600px;
+        gap: 30px;
+        background-color: rgba(0,0,0,0.2);
+        padding: 10px;
+    }
+    
+    .meal-text > h1 {
+        font-size: 25px;
+        color: #fff;
+        text-shadow: 2px 2px 2px #F4BD50;
+        text-align: center;
+        font-family: Strike;
+    }
+    .meal-text > h2 {
+        font-size: 20px;
+        color: #fff;
+        text-shadow: 2px 2px 2px #F4BD50;
+        text-align: center;
+        font-family: Monregular;
+    }
+}
+
+.meallist-component {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 100px;
+    padding:  50px;
+    background-color: #3b3b3bfa;
+}
+@media screen and (max-width:896px) {
+    .meallist-component {
+        width: 100%;
+        gap: 50px;
+        padding: 40px 0px;
+    }
+}
+
+.category-con {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    background-image: url(https://i.ibb.co/ZzD5V664/chicken.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 50px;
+    color: #fff;
+    text-shadow: 2px 2px 2px #F4BD50;
+} 
+
+.category-con > h3 {
+    font-size: 40px;
+    font-family: Monregular;
+}
+@media screen and (max-width:896px) {
+    .category-con {
+        width: 100%;
+        height: fit-content;
+        padding: 10px;
+    } 
+       
+    .category-con > h3 {
+        font-size: 30px;
+        font-family: Monregular;
+    }
+}
+
+.area-con {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    background-image: url(https://i.ibb.co/fGxxzXn0/area.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 50px;
+    color: #fff;
+    text-shadow: 2px 2px 2px #F4BD50;
+} 
+.area-con > h3 {
+    font-size: 40px;
+    font-family: Monregular;
+}
+@media screen and (max-width:896px) {
+    .area-con {
+        width: 100%;
+        height: fit-content;
+        padding: 10px;
+    } 
+    .area-con > h3 {
+        font-size: 30px;
+        font-family: Monregular;
+    }
+}
+
+.ingredient-con {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    background-image: url(https://i.ibb.co/rRT43cjN/ingredients.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 50px;
+    color: #fff;
+    text-shadow: 2px 2px 2px #F4BD50;
+} 
+.ingredient-con > h3 {
+    font-size: 40px;
+    font-family: Monregular;
+}
+@media screen and (max-width:896px) {
+    .ingredient-con {
+        width: 100%;
+        height: fit-content;
+        padding: 10px;
+        color: #fff;
+        text-shadow: 2px 2px 2px #F4BD50;
+    } 
+    .ingredient-con > h3 {
+        font-size: 30px;
+        font-family: Monregular;
+    }
+}
+
+.category-con > ul, .area-con > ul, .ingredient-con >ul {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 10px;
+}
+
+.category-con > ul > li, .area-con > ul > li, .ingredient-con >ul > li {
+    width: 100%;
+    list-style-type:square ;
+    font-size: 20px;
+    font-family: Montserrat;
+}
+@media screen and (max-width:896px) {
+    .category-con > ul, .area-con > ul, .ingredient-con >ul {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 10px;
+        padding: 10px;
+    }
+    
+    .category-con > ul > li, .area-con > ul > li, .ingredient-con >ul > li {
+        width: 100%;
+        font-size: 17px;
+        font-family: Montserrat;
+    }
+}
+   
+
+.options-container {
+    width: 100%;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 100px;
+    background-color: #3b3b3bfa;
+    padding: 20px;
+}
+
+.options-container > h1 {
+    font-size: 50px;
+    font-family: Strike;
+    color: #fff;
+    text-shadow: 2px 2px 2px #F4BD50;
+}
+@media screen and (max-width:896px) {
+    .options-container {
+        width: 100%;
+        min-height: fit-content;
+        gap: 50px;
+        padding: 10px;
+    }
+    
+    .options-container > h1 {
+        font-size: 30px;
+    }
+}
+
+.appetizer-con {
+    width: 70%;
+    height: 300px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.appetizer-con > .appet-text {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.appet-text > h1 {
+    font-size: 45px;
+    font-family: Monregular;
+    color: #fff;
+    text-shadow: 2px 2px 2px #F4BD50;
+}
+.appet-text > p {
+    font-size: 16px;
+    line-height: 2rem;
+    font-family: Montserrat;
+    text-align: center;
+    color: #fff;
+}
+
+.appetizer-con > img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+@media screen and (max-width:896px) {
+    .appetizer-con {
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .appetizer-con > .appet-text {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .appet-text > h1 {
+        font-size: 25px;
+        font-family: Monregular;
+        color: #fff;
+        text-shadow: 2px 2px 2px #F4BD50;
+    }
+    .appet-text > p {
+        font-size: 16px;
+        line-height: 1.6rem;
+        font-family: Montserrat;
+        text-align: center;
+        color: #fff;
+    }
+    
+    .appetizer-con > img {
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+    }
+}
+
+.dessert-con {
+    width: 70%;
+    height: 300px;
+    display: flex;
+    /* transform: translateX(350px); */
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 50px;
+}
+
+.dessert-con > .desse-text {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.desse-text > h1 {
+    font-size: 45px;
+    font-family: Monregular;
+    color: #fff;
+    text-shadow: 2px 2px 2px #F4BD50;
+}
+.desse-text > p {
+    font-size: 16px;
+    line-height: 2rem;
+    font-family: Montserrat;
+    text-align: center;
+    color: #fff;
+}
+
+.dessert-con > img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+@media screen and (max-width:896px) {
+    .dessert-con {
+        width: 100%;
+        height: fit-content;
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    .dessert-con > .desse-text {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .desse-text > h1 {
+        font-size: 25px;
+        font-family: Monregular;
+        color: #fff;
+        text-shadow: 2px 2px 2px #F4BD50;
+    }
+    .desse-text > p {
+        font-size: 16px;
+        line-height: 1.6rem;
+        font-family: Montserrat;
+        text-align: center;
+        color: #fff;
+    }
+    
+    .dessert-con > img {
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+    }
+}
+
+.entree-con {
+    width: 70%;
+    height: 400px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.entree-con > .ent-text {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.ent-text > h1 {
+    font-size: 45px;
+    font-family: Monregular;
+    color: #fff;
+    text-shadow: 2px 2px 2px #F4BD50;
+}
+.ent-text > p {
+    font-size: 16px;
+    line-height: 2rem;
+    font-family: Montserrat;
+    text-align: center;
+    color: #fff;
+}
+
+.entree-con > img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+@media screen and (max-width:896px) {
+    .entree-con {
+        width: 100%;
+        height: fit-content;
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    .entree-con > .ent-text {
+        width: 100%;
+        height: 100%;
+        gap: 20px;
+    }
+    
+    .ent-text > h1 {
+        font-size: 25px;
+    }
+    .ent-text > p {
+        font-size: 16px;
+        line-height: 1.6rem;
+        font-family: Montserrat;
+        text-align: center;
+        color: #fff;
+    }
+    
+    .entree-con > img {
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+    }
+}

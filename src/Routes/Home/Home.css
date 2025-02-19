@@ -1,0 +1,342 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Strike;
+    src: url(/src/Assets/Protest_Strike/ProtestStrike-Regular.ttf);
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(/src/Assets/Montserrat-Light.ttf);
+}
+
+@font-face {
+    font-family: Monregular;
+    src: url(/src/Assets/Montserrat/static/Montserrat-Regular.ttf);
+}
+
+
+.home-component {
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px 50px;
+}
+
+.home-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    left: 0%;
+}
+
+.home-container > video {
+    left: 0%;
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    position: relative;
+}
+
+.home-container > h1 {
+    font-size: 80px;
+    padding: 40px;
+    color: #fff;
+    text-shadow: 2px 2px 2px #F4BD50;
+    position: absolute;
+    text-align: center;
+    font-family: Strike;
+}
+@media screen and (max-width:896px) {
+    .home-component {
+        width: 100%;
+        min-height: 100vh;
+        padding: 100px 10px;
+    }
+    
+    .home-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        left: 0%;
+    }
+    
+    .home-container > video {
+        left: 0%;
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+        position: relative;
+    }
+    
+    .home-container > h1 {
+        font-size: 30px;
+        padding: 0px;
+        color: #fff;
+        text-shadow: 2px 2px 2px #F4BD50;
+        position: absolute;
+        text-align: center;
+        font-family: Strike;
+    }
+}
+
+.reserve-daily-menu-con {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: rgba(0,0,0,0.2);
+    gap: 40px;
+    padding-top: 300px;
+}
+
+.reserve {
+    /* width: 100%; */
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 440px;
+    z-index: 105;
+}
+
+.reserve-daily-menu-con > a {
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    color: gray;
+    font-family: Strike;
+}
+
+.reserve-daily-menu-con > a:hover {
+    color: black;
+    background-color: antiquewhite;
+}
+
+@media screen and (max-width:896px) {
+    .reserve-daily-menu-con {
+        width: 100%;
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        background-color: rgba(0,0,0,0.2);
+        gap: 40px;
+        padding: 20px;
+        padding-top: 170px;
+    }
+    
+    .reserve {
+        /* width: 100%; */
+        position: absolute;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding-top: 270px;
+        z-index: 105;
+    }
+    
+    .reserve-daily-menu-con > a {
+        width: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        background-color: #fff;
+        border-radius: 10px;
+        color: gray;
+        font-family: Strike;
+        font-size: 13px;
+    }   
+}
+
+.about-us-con {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 100px;
+    background-image: url(https://i.ibb.co/93cBcKw7/dinner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 40px;
+}
+@media screen and (max-width:896px) {
+    .about-us-con {
+        width: 100%;
+        height: 450px;
+        padding: 40px 10px;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+}
+
+.about-text {
+    width: 100%;
+    display: flex;
+    justify-content:flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+}
+.about-text > h2 {
+    font-size: 50px;
+    color: #fff;
+    text-shadow: 2px 2px 2px #F4BD50;
+    font-family: Strike;
+}
+.about-text > p {
+    font-size: 17px;
+    line-height: 2.5rem;
+    color: #fff;
+    font-family: Montserrat;
+}
+@media screen and (max-width:896px) {
+    .about-text {
+        width: 100%;
+        display: flex;
+        justify-content:center;
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .about-text > h2 {
+        font-size: 20px;
+        color: #fff;
+        text-shadow: 2px 2px 2px #F4BD50;
+        font-family: Strike;
+    }
+    .about-text > p {
+        font-size: 17px;
+        line-height: 1.5rem;
+        color: #fff;
+        text-shadow: 2px 2px 2px #F4BD50;
+        font-weight: 700;
+        font-family: Montserrat;
+    }
+}
+
+.open-text {
+    width: 100%;
+    display: flex;
+    justify-content:flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 30px;
+    color: #fff;
+    text-shadow: 2px 2px 2px #F4BD50;
+}
+.open-text > h2 {
+    font-size: 50px;
+    color: #fff;
+    text-shadow: 2px 2px 2px #F4BD50;
+    font-family: Strike;
+}
+
+.open-text > span {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+.open-text > span > h1 {
+    font-size: 35px;
+    color: #fff;
+    text-shadow: 2px 2px 2px #F4BD50;
+    font-family: Strike;
+}
+.open-text > span > h3 {
+    font-size: 25px;
+    color: #fff;
+    text-shadow: 2px 2px 2px #F4BD50;
+    font-family: Strike;
+}
+
+@media screen and (max-width:896px) {
+    .open-text {
+        width: 100%;
+        display: none;
+        color: #fff;
+        text-shadow: 2px 2px 2px #F4BD50;
+    }
+    .open-text > h2 {
+        display: none;
+    }
+    .open-text > span {
+        display: none;
+    }
+}
+
+.our-meal-by-category {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    background-image: url(https://i.ibb.co/qLYwP0rL/New-Punjab-Club-food-spread.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.our-meal-by-category > h1 {
+    font-size: 90px;
+    padding: 60px;
+    color: #fff;
+    text-shadow: 2px 2px 2px #F4BD50;
+    position: absolute;
+    text-align: center;
+    font-family: Strike;
+    transform: translateY(-50px);
+}
+.reservate {
+    padding-top: 200px;
+}
+@media screen and (max-width:896px) {
+    .our-meal-by-category {
+        width: 100%;
+        height: 450px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+        background-image: url(https://i.ibb.co/qLYwP0rL/New-Punjab-Club-food-spread.jpg);
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    
+    .our-meal-by-category > h1 {
+        font-size: 30px;
+        padding: 10px;
+        color: #fff;
+        text-shadow: 2px 2px 2px #F4BD50;
+        position: absolute;
+        text-align: center;
+        font-family: Strike;
+        transform: translateY(-50px);
+    }
+    .reservate {
+        padding-top: 10px;
+    }
+}

@@ -1,0 +1,283 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Strike;
+    src: url(/src/Assets/Protest_Strike/ProtestStrike-Regular.ttf);
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(/src/Assets/Montserrat-Light.ttf);
+}
+
+@font-face {
+    font-family: Monregular;
+    src: url(/src/Assets/Montserrat/static/Montserrat-Regular.ttf);
+}
+
+.image-contact {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.image-contact > img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    position: relative;
+}
+.contact-text {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    background-color: rgba(0,0,0,0.2);
+    gap: 100px;
+}
+.contact-text > h1 {
+    font-size: 40px;
+    color: #fff;
+    text-shadow: 2px 2px 2px #F4BD50;
+    position: absolute;
+    text-align: center;
+    font-family: Strike;
+    margin-bottom: 100px;
+}
+
+.contact-text > h2 {
+    font-size: 70px;
+    color: #fff;
+    text-shadow: 2px 2px 2px #F4BD50;
+    position: absolute;
+    text-align: center;
+    font-family: Strike;
+    margin-top: 50px;
+}
+@media screen and (max-width:896px) {
+    .contact-text > h1 {
+        font-size: 30px;
+        color: #fff;
+        text-shadow: 2px 2px 2px #F4BD50;
+        position: absolute;
+        text-align: center;
+        font-family: Strike;
+        margin-bottom: 100px;
+    }
+    
+    .contact-text > h2 {
+        font-size: 30px;
+        color: #fff;
+        text-shadow: 2px 2px 2px #F4BD50;
+        position: absolute;
+        text-align: center;
+        font-family: Strike;
+        margin-top: 50px;
+    }
+}
+
+.contact-component {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #222;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 70px 50px;
+}
+@media screen and (max-width:896px) {
+    .contact-component {
+        width: 100%;
+        padding:50px 10px;
+    }
+}
+
+.contact-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 50px 80px;
+}
+@media screen and (max-width:896px) {
+    .contact-wrapper {
+        width: 100%;
+        flex-direction: column-reverse;
+        padding: 0px;
+        gap: 100px;
+    }
+}
+
+.contact-info {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+}
+.contact-info > h2 {
+    font-size: 25px;
+    color: #fff;
+    text-shadow: 2px 2px 2px #F4BD50;
+    font-family: Monregular;
+}
+.contact-info > span > .icon {
+    color: #F4BD50;
+    font-size: 25px;
+}
+
+.contact-info > span {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    color: #Fff;
+    text-shadow: 2px 2px 2px #F4BD50;
+    font-family: Monregular;
+}
+
+.contact-info > ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    color: #fff;
+    gap: 10px;
+}
+
+.contact-info > ul > li {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    font-size: 20px;
+    font-family: Monregular;
+}
+
+.contact-info > span > a {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+}
+.contact-info > span > a > .icons {
+    color: #F4BD50;
+}
+.contact-info > span > .icons {
+    color: #F4BD50;
+    font-size: 20px;
+}
+
+.link-handle {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+.link-handle > a {
+    color: #fff;
+}
+.link-handle > a:hover {
+    color: #F4BD50;
+}
+
+.message-box {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.message-box > h1 {
+    font-size: 25px;
+    color: #fff;
+    text-shadow: 2px 2px 2px #F4BD50;
+    font-family: Monregular;
+}
+
+.message-box > form {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.message-box > form > input {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background-color: transparent;
+    padding: 10px;
+    box-shadow: none;
+    color: #Fff;
+    font-family: Montserrat;
+}
+
+.message-box > form > textarea {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background-color: transparent;
+    padding: 10px;
+    box-shadow: none;
+    color: #Fff;
+    font-family: Montserrat;
+}
+
+.message-box > form > input::placeholder {
+    color: #Fff;
+}
+
+.message-box > form > button {
+    width: 100px;
+    outline: none;
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 17px;
+    font-family: Montserrat;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.map {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.map > iframe {
+    width: 100%;
+    height: 600px;
+    border: none;
+}
+@media screen and (max-width:896px) {
+    .map > iframe {
+        width: 100%;
+        height: 300px;
+        border: none;
+    }
+}
