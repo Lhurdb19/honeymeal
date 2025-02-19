@@ -44,9 +44,9 @@
 }
 
 .home-container > h1 {
-    font-size: 80px;
+    font-size: 40px;
     padding: 40px;
-    color: #fff;
+    color: #222;
     text-shadow: 2px 2px 2px #F4BD50;
     position: absolute;
     text-align: center;
@@ -79,7 +79,6 @@
     .home-container > h1 {
         font-size: 30px;
         padding: 0px;
-        color: #fff;
         text-shadow: 2px 2px 2px #F4BD50;
         position: absolute;
         text-align: center;
@@ -196,9 +195,8 @@
     gap: 10px;
 }
 .about-text > h2 {
-    font-size: 50px;
+    font-size: 20px;
     color: #fff;
-    text-shadow: 2px 2px 2px #F4BD50;
     font-family: Strike;
 }
 .about-text > p {
@@ -218,15 +216,12 @@
     }
     .about-text > h2 {
         font-size: 20px;
-        color: #fff;
-        text-shadow: 2px 2px 2px #F4BD50;
         font-family: Strike;
     }
     .about-text > p {
         font-size: 17px;
         line-height: 1.5rem;
         color: #fff;
-        text-shadow: 2px 2px 2px #F4BD50;
         font-weight: 700;
         font-family: Montserrat;
     }
@@ -240,12 +235,10 @@
     flex-direction: column;
     gap: 30px;
     color: #fff;
-    text-shadow: 2px 2px 2px #F4BD50;
 }
 .open-text > h2 {
     font-size: 50px;
     color: #fff;
-    text-shadow: 2px 2px 2px #F4BD50;
     font-family: Strike;
 }
 
@@ -259,13 +252,11 @@
 .open-text > span > h1 {
     font-size: 35px;
     color: #fff;
-    text-shadow: 2px 2px 2px #F4BD50;
     font-family: Strike;
 }
 .open-text > span > h3 {
     font-size: 25px;
     color: #fff;
-    text-shadow: 2px 2px 2px #F4BD50;
     font-family: Strike;
 }
 
@@ -274,7 +265,6 @@
         width: 100%;
         display: none;
         color: #fff;
-        text-shadow: 2px 2px 2px #F4BD50;
     }
     .open-text > h2 {
         display: none;
@@ -299,14 +289,12 @@
 }
 
 .our-meal-by-category > h1 {
-    font-size: 90px;
-    padding: 60px;
-    color: #fff;
+    font-size: 40px;
+    color: #222;
     text-shadow: 2px 2px 2px #F4BD50;
     position: absolute;
     text-align: center;
     font-family: Strike;
-    transform: translateY(-50px);
 }
 .reservate {
     padding-top: 200px;
@@ -327,14 +315,12 @@
     }
     
     .our-meal-by-category > h1 {
-        font-size: 30px;
+        font-size: 25px;
         padding: 10px;
-        color: #fff;
-        text-shadow: 2px 2px 2px #F4BD50;
         position: absolute;
         text-align: center;
         font-family: Strike;
-        transform: translateY(-50px);
+        transform: translateY(-40px);
     }
     .reservate {
         padding-top: 10px;

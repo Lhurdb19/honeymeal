@@ -20,10 +20,72 @@
     src: url(/src/Assets/Montserrat/static/Montserrat-Regular.ttf);
 }
 
+
+.meal-details-component {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 100px 50px;
+  gap: 20px;
+}
+
+.meal-details-component > h2 {
+  font-size: 25px;
+  color: #222;
+  font-family: Monregular;
+}
+
+.meal-wrap-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 50px;
+  /* background-color: #a0a3a6; */
+}
+
+.meal-wrap-container > img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.meal-wrap-container-text {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  color: #222;
+  gap: 10px;
+}
+.meal-wrap-container-text > .instruction {
+  font-family: Montserrat;
+  line-height: 1.6rem;
+  font-size: 14px;
+}
+
+.meal-wrap-container-text > p {
+  font-family: Monregular;
+}
+
+.meal-wrap-container-text > a {
+  color: #f4bd50;
+  font-size: 17px;
+  transition: all 0.3s ease-in-out;
+}
+.meal-wrap-container-text > a:hover {
+  color: #222;
+  padding-left: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+
 .skeleton-loader {
     width: 100%;
-    height: 300px;
-    background-color: red;
+    height: 600px;
+    background-color: gray;
     animation: pulse 1.5s infinite alternate;
   }
   

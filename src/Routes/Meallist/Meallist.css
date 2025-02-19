@@ -48,15 +48,15 @@
 }
 
 .meal-text > h1 {
-    font-size: 80px;
-    color: #fff;
+    font-size: 40px;
+    color: #222;
     text-shadow: 2px 2px 2px #F4BD50;
     text-align: center;
     font-family: Strike;
 }
 .meal-text > h2 {
-    font-size: 50px;
-    color: #fff;
+    font-size: 30px;
+    color: #222;
     text-shadow: 2px 2px 2px #F4BD50;
     text-align: center;
     font-family: Monregular;
@@ -87,14 +87,12 @@
     
     .meal-text > h1 {
         font-size: 25px;
-        color: #fff;
         text-shadow: 2px 2px 2px #F4BD50;
         text-align: center;
         font-family: Strike;
     }
     .meal-text > h2 {
         font-size: 20px;
-        color: #fff;
         text-shadow: 2px 2px 2px #F4BD50;
         text-align: center;
         font-family: Monregular;
@@ -109,7 +107,6 @@
     flex-direction: column;
     gap: 100px;
     padding:  50px;
-    background-color: #3b3b3bfa;
 }
 @media screen and (max-width:896px) {
     .meallist-component {
@@ -128,7 +125,7 @@
   .meal-link {
     text-decoration: none;
     font-weight: bold;
-    color: #d35400; /* Change color to match your theme */
+    color: #F4BD50; /* Change color to match your theme */
   }
   
   .meal-link:hover {
@@ -150,12 +147,13 @@
     background-attachment: fixed;
     padding: 50px;
     color: #fff;
-    text-shadow: 2px 2px 2px #F4BD50;
 } 
 
 .category-con > h3 {
     font-size: 40px;
     font-family: Monregular;
+    /* color: #222; */
+    text-shadow: 2px 2px 2px #F4BD50;
 }
 @media screen and (max-width:896px) {
     .category-con {
@@ -184,11 +182,11 @@
     background-attachment: fixed;
     padding: 50px;
     color: #fff;
-    text-shadow: 2px 2px 2px #F4BD50;
 } 
 .area-con > h3 {
     font-size: 40px;
     font-family: Monregular;
+    text-shadow: 2px 2px 2px #F4BD50;
 }
 @media screen and (max-width:896px) {
     .area-con {
@@ -216,11 +214,11 @@
     background-attachment: fixed;
     padding: 50px;
     color: #fff;
-    text-shadow: 2px 2px 2px #F4BD50;
 } 
 .ingredient-con > h3 {
     font-size: 40px;
     font-family: Monregular;
+    text-shadow: 2px 2px 2px #F4BD50;
 }
 @media screen and (max-width:896px) {
     .ingredient-con {

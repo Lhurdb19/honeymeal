@@ -47,18 +47,18 @@
 }
 
 .special-text > h1 {
-    font-size: 80px;
+    font-size: 40px;
     text-align: center;
     font-family: Strike;
-    color: #Ffff;
+    color: #222;
     text-shadow: 2px 2px 2px #F4BD50;
 }
 
 .special-text > h2 {
-    font-size: 50px;
+    font-size: 30px;
     text-align: center;
     font-family: Monregular;
-    color: #Ffff;
+    color: #222;
     text-shadow: 2px 2px 2px #F4BD50;
 }
 @media screen and (max-width:896px) {
@@ -96,7 +96,6 @@
     gap: 100px;
     padding: 100px 50px;
     overflow: hidden;
-    background-color: #3b3b3bfa;
 }
 @media screen and (max-width:896px) {
     .meal-categories-component {
@@ -153,24 +152,24 @@
     flex-direction: column;
     padding: 300px;
     position: absolute;
-    color: #Ffff;
+    color: #222;
     text-shadow: 2px 2px 2px #F4BD50;
     overflow: hidden;
     text-align: center;
     gap: 50px;
 }
 .private-room > .text > h1 {
-    font-size: 50px;
+    font-size: 30px;
     text-align: center;
     font-family: Strike;
 }
 .private-room > .text > h2 {
-    font-size: 30px;
+    font-size: 25px;
     font-family: Monregular;
 }
 
 .reserve-cont {
-    left: 40%;
+    left: 45%;
     position: relative;
     z-index: 199;
     cursor: pointer;
@@ -202,8 +201,6 @@
         flex-direction: column;
         padding: 10px;
         position: absolute;
-        color: #Ffff;
-        text-shadow: 2px 2px 2px #F4BD50;
         overflow: hidden;
         text-align: center;
         gap: 20px;
@@ -339,18 +336,18 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    color: #fff;
+    color: #222;
     gap: 20px;
 }
 
 .sitdown-image-text > h2 {
     font-family: Strike;
-    font-size: 50px;
+    font-size: 30px;
     text-shadow: 2px 2px 2px #F4BD50;
 }
 .sitdown-image-text > h1 {
     font-family: Strike;
-    font-size: 40px;
+    font-size: 25px;
     text-shadow: 2px 2px 2px #F4BD50;
 }
 @media screen and (max-width:896px) {
@@ -361,7 +358,6 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        color: #fff;
         gap: 20px;
     }
     
@@ -405,15 +401,15 @@
     padding: 10px 0;
 }
 .sitdown-appetizers > h2 {
-    color: #fff;
-    font-size: 40px;
+    color: #222;
+    font-size: 30px;
     text-shadow: 2px 2px 2px #F4BD50;
 }
 
 .sitdown-appetizers > h5 {
     font-size: 17px;
     font-family: Montserrat;
-    color: #fff;
+    color: #222;
     text-shadow: 2px 2px 2px #F4BD50;
 }
 
@@ -423,7 +419,6 @@
     line-height: 1.7rem;
     font-family: Montserrat;
     list-style: square;
-    color: #fff;
 }
 @media screen and (max-width:896px) {
     .sitdown-appetizers {
@@ -432,7 +427,6 @@
         padding: 0px;
     }
     .sitdown-appetizers > h2 {
-        color: #fff;
         font-size: 30px;
         text-shadow: 2px 2px 2px #F4BD50;
     }
@@ -464,15 +458,15 @@
 }
 .sitdown-salad > h2 {
     font-family: Strike;
-    color: #fff;
-    font-size: 40px;
+    color: #222;
+    font-size: 30px;
     text-shadow: 2px 2px 2px #F4BD50;
 }
 
 .sitdown-salad > h5 {
     font-size: 17px;
     font-family: Montserrat;
-    color: #fff;
+    color: #222;
     text-shadow: 2px 2px 2px #F4BD50;
 }
 
@@ -482,7 +476,7 @@
     line-height: 1.7rem;
     font-family: Montserrat;
     list-style: square;
-    color: #fff;
+    color: #222;
 }
 
 @media screen and (max-width:896px) {
@@ -497,7 +491,6 @@
     }
     .sitdown-salad > h2 {
         font-family: Strike;
-        color: #fff;
         font-size: 30px;
     }
     
@@ -523,8 +516,8 @@
     padding: 10px 0;
 }
 .sitdown-entrees > h1 {
-    color: #fff;
-    font-size: 40px;
+    color: #222;
+    font-size: 30px;
     text-shadow: 2px 2px 2px #F4BD50;
     font-family: Strike;
 }
@@ -539,7 +532,6 @@
         padding: 10px 0;
     }
     .sitdown-entrees > h1 {
-        color: #fff;
         font-size: 25px;
     }
 }
@@ -554,7 +546,7 @@
 .fish-con > h5 {
     font-size: 17px;
     font-family: Montserrat;
-    color: #fff;
+    color: #222;
     text-shadow: 2px 2px 2px #F4BD50;
 }
 
@@ -564,7 +556,7 @@
     line-height: 1.7rem;
     font-family: Montserrat;
     list-style: square;
-    color: #fff;
+    color: #222;
 }
 
 
@@ -578,7 +570,7 @@
 .poultry-con > h5 {
     font-size: 17px;
     font-family: Montserrat;
-    color: #fff;
+    color: #222;
     text-shadow: 2px 2px 2px #F4BD50;
 }
 
@@ -588,7 +580,7 @@
     line-height: 1.7rem;
     font-family: Montserrat;
     list-style: square;
-    color: #fff;
+    color: #222;
 }
 
 .sitdown-entrees > .meat-con {
@@ -601,7 +593,7 @@
 .meat-con > h5 {
     font-size: 17px;
     font-family: Montserrat;
-    color: #fff;
+    color: #222;
     text-shadow: 2px 2px 2px #F4BD50;
 }
 
@@ -611,7 +603,7 @@
     line-height: 1.7rem;
     font-family: Montserrat;
     list-style: square;
-    color: #fff;
+    color: #222;
 }
 
 
@@ -625,8 +617,8 @@
     padding: 10px 0;
 }
 .sitdown-dessert > h2 {
-    color: #fff;
-    font-size: 40px;
+    color: #222;
+    font-size: 30px;
     text-shadow: 2px 2px 2px #F4BD50;
     font-family: Strike;
 }
@@ -641,7 +633,6 @@
         padding: 10px 0;
     }
     .sitdown-dessert > h2 {
-        color: #fff;
         font-size: 25px;
         text-shadow: 2px 2px 2px #F4BD50;
         font-family: Strike;
@@ -652,13 +643,12 @@
     font-size: 16px;
     font-family: Montserrat;
     list-style: none;
-    color: #fff;
+    color: #222;
 }
 @media screen and (max-width:896px) {
     .sitdown-dessert > li {
         font-size: 13px;
         text-align: center;
-        color: #fff;
     }
 }
 
@@ -675,11 +665,11 @@
 
 .additional-con > p {
     font-size: 14px;
-    color: #fff;
+    color: #222;
 }
 .additional-con > h6 {
     font-size: 14px;
-    color: #fff;
+    color: #222;
 }
 
 .family-dinner {
@@ -711,13 +701,13 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    color: #fff;
+    color: #222;
     gap: 20px;
 }
 
 .family-image-text > h2 {
     font-family: Strike;
-    font-size: 50px;
+    font-size: 30px;
     text-shadow: 2px 2px 2px #F4BD50;
 }
 .family-image-text > h1 {
@@ -734,7 +724,6 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        color: #fff;
         gap: 20px;
     }
     
@@ -780,15 +769,15 @@
     padding: 10px 0;
 }
 .family-appetizers > h2 {
-    color: #fff;
-    font-size: 40px;
+    color: #222;
+    font-size: 30px;
     text-shadow: 2px 2px 2px #F4BD50;
 }
 
 .family-appetizers > h5 {
     font-size: 17px;
     font-family: Montserrat;
-    color: #fff;
+    color: #222;
     text-shadow: 2px 2px 2px #F4BD50;
 }
 
@@ -798,7 +787,7 @@
     line-height: 1.7rem;
     font-family: Montserrat;
     list-style: square;
-    color: #Ffff;
+    color: #222;
     /* padding:0 20px; */
 }
 @media screen and (max-width:896px) {
@@ -812,7 +801,6 @@
         padding: 10px 0;
     }
     .family-appetizers > h2 {
-        color: #fff;
         font-size: 25px;
         text-shadow: 2px 2px 2px #F4BD50;
     }
@@ -820,7 +808,6 @@
     .family-appetizers > h5 {
         font-size: 15px;
         font-family: Montserrat;
-        color: #fff;
         text-shadow: 2px 2px 2px #F4BD50;
     }
     
@@ -842,15 +829,15 @@
 }
 .family-salad > h2 {
     font-family: Strike;
-    color: #fff;
-    font-size: 40px;
+    color: #222;
+    font-size: 30px;
     text-shadow: 2px 2px 2px #F4BD50;
 }
 
 .family-salad > h5 {
     font-size: 17px;
     font-family: Montserrat;
-    color: #fff;
+    color: #222;
     text-shadow: 2px 2px 2px #F4BD50;
 }
 
@@ -860,7 +847,7 @@
     line-height: 1.7rem;
     font-family: Montserrat;
     list-style: square;
-    color: #fff;
+    color: #222;
 }
 @media screen and (max-width:896px) {
     .family-salad {
@@ -874,7 +861,6 @@
     }
     .family-salad > h2 {
         font-family: Strike;
-        color: #fff;
         font-size: 30px;
         text-shadow: 2px 2px 2px #F4BD50;
     }
@@ -882,7 +868,6 @@
     .family-salad > h5 {
         font-size: 15px;
         font-family: Montserrat;
-        color: #fff;
         text-shadow: 2px 2px 2px #F4BD50;
     }
     
@@ -901,8 +886,8 @@
     padding: 10px 0;
 }
 .family-entree > h1 {
-    color: #fff;
-    font-size: 40px;
+    color: #222;
+    font-size: 30px;
     text-shadow: 2px 2px 2px #F4BD50;
     font-family: Strike;
 }
@@ -913,7 +898,6 @@
         padding: 0;
     }
     .family-entree > h1 {
-        color: #fff;
         font-size: 25px;
         text-shadow: 2px 2px 2px #F4BD50;
         font-family: Strike;
@@ -930,7 +914,7 @@
 .fish-con > h5 {
     font-size: 17px;
     font-family: Montserrat;
-    color: #fff;
+    color: #222;
     text-shadow: 2px 2px 2px #F4BD50;
 }
 
@@ -940,7 +924,7 @@
     line-height: 1.7rem;
     font-family: Montserrat;
     list-style: square;
-    color: #fff;
+    color: #222;
 }
 
 .family-entree > .poultry-con {
@@ -953,7 +937,7 @@
 .poultry-con > h5 {
     font-size: 17px;
     font-family: Montserrat;
-    color: #fff;
+    color: #222;
     text-shadow: 2px 2px 2px #F4BD50;
 }
 
@@ -963,7 +947,7 @@
     line-height: 1.7rem;
     font-family: Montserrat;
     list-style: square;
-    color: #fff;
+    color: #222;
 }
 
 .family-entree > .meat-con {
@@ -976,7 +960,7 @@
 .meat-con > h5 {
     font-size: 17px;
     font-family: Montserrat;
-    color: #fff;
+    color: #222;
     text-shadow: 2px 2px 2px #F4BD50;
 }
 
@@ -986,7 +970,7 @@
     line-height: 1.7rem;
     font-family: Montserrat;
     list-style: square;
-    color: #fff;
+    color: #222;
 }
 
 
@@ -1000,8 +984,8 @@
     padding: 10px 0;
 }
 .family-dessert > h2 {
-    color: #fff;
-    font-size: 40px;
+    color: #222;
+    font-size: 30px;
     text-shadow: 2px 2px 2px #F4BD50;
     font-family: Strike;
 }
@@ -1010,7 +994,7 @@
     font-size: 16px;
     font-family: Montserrat;
     list-style: none;
-    color: #fff;
+    color: #222;
 }
 @media screen and (max-width:896px) {
     .family-dessert {
@@ -1023,7 +1007,6 @@
         padding: 10px 0;
     }
     .family-dessert > h2 {
-        color: #fff;
         font-size: 25px;
         text-shadow: 2px 2px 2px #F4BD50;
         font-family: Strike;
@@ -1049,11 +1032,11 @@
 
 .considered-con > p {
     font-size: 14px;
-    color: #fff;
+    color: #222;
 }
 .considered-con > h5 {
     font-size: 14px;
-    color: #fff;
+    color: #222;
 }
 @media screen and (max-width:896px) {
     .considered-con {

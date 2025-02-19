@@ -24,7 +24,6 @@ const MealListsComponent = () => {
 
       <div className="meallist-component">
         <div className="meals-container">
-          <h3>Meals</h3>
           <ul>
             {meals?.slice(0, 20).map((meal) => (
               <li key={meal.idMeal} className="meal-item">

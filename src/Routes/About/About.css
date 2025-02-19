@@ -44,7 +44,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    color: #fff;
+    color: #222;
     text-shadow: 2px 2px 2px #F4BD50;
     position: absolute;
     padding: 50px;
@@ -53,11 +53,11 @@
     background-color: rgba(0, 0, 0, 0.2);
 }
 .video-writeup > h1 {
-    font-size: 80px;
+    font-size: 40px;
     font-family: Strike;
 }
 .video-writeup > h2 {
-    font-size: 50px;
+    font-size: 20px;
     font-family: Monregular;
 }
 
@@ -76,7 +76,6 @@
     
     .video-writeup {
         width: 100%;
-        color: #fff;
         text-shadow: 2px 2px 2px #F4BD50;
         position: absolute;
         padding:200px 0px;
@@ -105,7 +104,6 @@
     align-items: flex-start;
     flex-direction: column;
     gap: 100px;
-    background-color: #404040;
     padding: 70px 50px;
 }
 
@@ -129,18 +127,18 @@
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    color: #fff;
+    color: #222;
     text-shadow: 2px 2px 2px #F4BD50;
     gap: 50px;
 }
 
 .about-box > h2 {
-    font-size: 50px;
+    font-size: 30px;
     font-family: Strike;
 }
 
 .about-box > h1 {
-    font-size: 60px;
+    font-size: 20px;
     font-family: Strike;
 }
 @media screen and (max-width:896px) {
@@ -175,17 +173,17 @@
     align-items: center;
     flex-direction: column;
     gap: 20px;
-    color: #fff;
+    color: #222;
 }
 .manager-text > h4 {
-    font-size: 40px;
-    color: #fff;
+    font-size: 30px;
+    color: #222;
     text-shadow: 2px 2px 2px #F4BD50;
 }
 .manager-text > p {
-    font-size: 20px;
+    font-size: 15px;
     font-family: Montserrat;
-    line-height: 2rem;
+    line-height: 1.6rem;
 }
 .manager-text > h3 {
     color: #F4BD50;
@@ -213,13 +211,10 @@
         align-items: center;
         flex-direction: column;
         gap: 10px;
-        color: #fff;
         padding: 10px;
     }
     .manager-text > h4 {
-        font-size: 25px;
-        color: #fff;
-        text-shadow: 2px 2px 2px #F4BD50;
+        font-size: 20px;
     }
     .manager-text > p {
         font-size: 14px;
@@ -263,7 +258,7 @@
     width: 100%;
     display: flex;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: center;
     gap: 100px;
 }
 .first-chef > img {
@@ -274,7 +269,7 @@
 .first-chef > .chef-text {
     width: 200px;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 20px;
@@ -283,15 +278,15 @@
 .chef-text > h2 {
     width: 250px;
     line-height: 6rem;
-    font-size: 50px;
+    font-size: 30px;
     text-align: center;
-    color: #fff;
+    color: #222;
     text-shadow: 2px 2px 2px #F4BD50;
     font-family: Strike;
 }
 
 .chef-text > h3 {
-    font-size: 27px;
+    font-size: 20px;
     font-family: Monitalic;
     color: #F4BD50;
     text-shadow: 2px 2px 2px #Fff;
@@ -326,12 +321,12 @@
     
     .chef-text > h2 {
         width: 100%;
-        line-height: 2rem;
-        font-size: 30px;
+        line-height: 1.5rem;
+        font-size: 20px;
     }
     
     .chef-text > h3 {
-        font-size: 30px;
+        font-size: 20px;
         font-family: Monitalic;
     }
     .chef-text > h5 {
@@ -344,7 +339,7 @@
     width: 100%;
     display: flex;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: center;
     gap: 100px;
 }
 .second-chef > img {
@@ -355,7 +350,7 @@
 .second-chef > .chef-text {
     width: 200px;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 20px;
@@ -363,23 +358,23 @@
 
 .chef-text > h2 {
     width: 250px;
-    line-height: 6rem;
-    font-size: 50px;
+    line-height: 3rem;
+    font-size: 30px;
     text-align: center;
-    color: #fff;
+    color: #222;
     text-shadow: 2px 2px 2px #F4BD50;
     font-family: Strike;
 }
 
 .chef-text > h3 {
-    font-size: 27px;
+    font-size: 20px;
     font-family: Monitalic;
     color: #F4BD50;
     text-shadow: 2px 2px 2px #dad6d6;
 }
 .chef-text > h5 {
     color: #F4BD50;
-    font-size: 25px;
+    font-size: 20px;
     font-family: Montserrat;
 }
 @media screen and (max-width:896px) {
@@ -407,7 +402,7 @@
     
     .chef-text > h2 {
         width: 100%;
-        line-height: 2rem;
+        line-height: 1.5rem;
         font-size: 20px;
     }
     
@@ -450,7 +445,7 @@
     align-items: center;
     text-align: center;
     padding: 20px;
-    background: #fff; 
+    background: #222; 
     border-radius: 10px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     margin: auto;
@@ -458,14 +453,17 @@
 
   .review-slider > p {
     font-family: Montserrat;
-  }
+    color: #fff;
+    line-height: 1.5rem;
+}
 
-  .review-slider > span {
+.review-slider > span {
     font-size: 30px;
     color: #F4BD50;
-  }
-  .review-slider > h4 {
+}
+.review-slider > h4 {
     font-size: 20px;
+    color: #fff;
   }
   
   .slick-slider {
