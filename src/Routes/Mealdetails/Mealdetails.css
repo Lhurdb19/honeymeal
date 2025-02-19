@@ -36,6 +36,24 @@
   color: #222;
   font-family: Monregular;
 }
+@media screen and (max-width:896px) {
+  .meal-details-component {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 90px 0px;
+    gap: 10px;
+  }
+  
+  .meal-details-component > h2 {
+    font-size: 20px;
+    color: #222;
+    font-family: Monregular;
+    padding: 0 10px;
+  }
+}
 
 .meal-wrap-container {
   width: 100%;
@@ -51,6 +69,23 @@
   height: 500px;
   object-fit: cover;
 }
+@media screen and (max-width:896px) {
+  .meal-wrap-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+    /* background-color: #a0a3a6; */
+  }
+  
+  .meal-wrap-container > img {
+    width: 100%;
+    height: fit-content;
+    object-fit: cover;
+  }
+}
 
 .meal-wrap-container-text {
   display: flex;
@@ -59,6 +94,17 @@
   flex-direction: column;
   color: #222;
   gap: 10px;
+}
+@media screen and (max-width:896px) {
+  .meal-wrap-container-text {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    color: #222;
+    gap: 10px;
+    padding: 10px;
+  }
 }
 .meal-wrap-container-text > .instruction {
   font-family: Montserrat;
