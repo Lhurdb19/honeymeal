@@ -109,17 +109,24 @@
     overflow: hidden;
 }
 
-.filtered-meal-info:hover > img {
-    scale: 1.1;
+.filtered-meal-info > a {
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
     transition: all 0.3s ease-in-out;
 }
 
-.filtered-meal-info > img {
+.filtered-meal-info > a > img {
     width: 100%;
-    height: 250px;
+    height: 100%;
     object-fit: cover;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.filtered-meal-info:hover > img {
+    scale: 1.1;
     transition: all 0.3s ease-in-out;
-    border-radius: 10px;
 }
 
 .filtered-meal-info > h3 {
@@ -147,17 +154,19 @@
         overflow: hidden;
     }
     
-    .filtered-meal-info:hover > img {
-        scale: 1.1;
+    .filtered-meal-info > a {
+        width: 100%;
+        height: fit-content;
+        border-radius: 10px;
         transition: all 0.3s ease-in-out;
     }
     
-    .filtered-meal-info > img {
+    .filtered-meal-info > a > img {
         width: 100%;
-        height: fit-content;
+        height: 100%;
         object-fit: cover;
-        transition: all 0.3s ease-in-out;
-        border-radius: 10px;
+        cursor: pointer;
+        transition: transform 0.2s ease-in-out;
     }
     
     .filtered-meal-info > h3 {

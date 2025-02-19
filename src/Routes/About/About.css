@@ -38,8 +38,7 @@
     object-fit: cover;
 }
 
-.video-text {
-    width: 100%;
+.video-writeup {
     height: 600px;
     display: flex;
     justify-content: center;
@@ -48,15 +47,16 @@
     color: #fff;
     text-shadow: 2px 2px 2px #F4BD50;
     position: absolute;
-    padding: 100px;
+    padding: 50px;
     text-align: center;
     gap: 30px;
+    background-color: rgba(0, 0, 0, 0.2);
 }
-.video-text > h1 {
-    font-size: 90px;
+.video-writeup > h1 {
+    font-size: 80px;
     font-family: Strike;
 }
-.video-text > h2 {
+.video-writeup > h2 {
     font-size: 50px;
     font-family: Monregular;
 }
@@ -66,8 +66,6 @@
         width: 100%;
         height: 600px;
         display: flex;
-        justify-content: center;
-        align-items: center;
     }
     
     .about-video > video {
@@ -76,27 +74,26 @@
         object-fit: cover;
     }
     
-    .video-text {
+    .video-writeup {
         width: 100%;
-        height: 600px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
         color: #fff;
         text-shadow: 2px 2px 2px #F4BD50;
         position: absolute;
-        padding: 10px;
-        text-align: center;
+        padding:200px 0px;
         gap: 30px;
+        text-align: center;
     }
-    .video-text > h1 {
+    .video-writeup > h1 {
         font-size: 25px;
         font-family: Strike;
     }
-    .video-text > h2 {
+    .video-writeup > h2 {
         font-size: 25px;
         font-family: Monregular;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
 
@@ -491,5 +488,34 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: red;
+    background-color: gray;
   }
+
+  .skeleton-video {
+    width: 100%;
+    height: 600px;
+    background-color: gray;
+    animation: pulse 1.5s infinite;
+  }
+  
+  .skeleton-manager,
+  .skeleton-chef {
+    width: 100%;
+    height: 300px;
+    background-color: gray;
+    margin-bottom: 20px;
+    animation: pulse 1.5s infinite;
+  }
+  
+  @keyframes pulse {
+    0% {
+      background-color: #989494;
+    }
+    50% {
+      background-color: #393535;
+    }
+    100% {
+      background-color: #989494;
+    }
+  }
+  

@@ -7,6 +7,7 @@ import MealCategoriesComponent from "./Routes/Mealcategories/mealcategoriescompo
 import MealListsComponent from "./Routes/Meallist/meallistcomponent";
 import Footer from "./Routes/Footer/footer";
 import Cookies from "./Routes/Cookies/cookies";
+import MealDetails from "./Routes/Mealdetails/mealdetails";
 
 function App() {
 
@@ -15,6 +16,8 @@ function App() {
       <Navbar/>
       <Routes>
         <Route path="/" element={<Home/>}/>
+
+        <Route path="/meal/:id" element={<MealDetails />} />
         <Route path="/about" element={<About/>}/>
         <Route path="/contact" element={<Contact/>}/>
         <Route path="/meallistscomponent" element={<MealListsComponent/>}/>

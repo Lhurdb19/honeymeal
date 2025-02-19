@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef, useCallback } from "react";
+import { Link } from "react-router-dom";
 import useMealsByCategory from "../../Lib/useMealByCategory";
 import "./Mealbycategory.css";
 
@@ -58,7 +59,9 @@ const MealsByCategoryComponent = () => {
                 className="mealby-info"
                 ref={index === visibleMeals - 1 ? lastMealRef : null}
               >
-                <img src={meal.strMealThumb} alt={meal.strMeal} width="150" />
+                <Link to={`/meal/${meal.idMeal}`}>
+                  <img src={meal.strMealThumb} alt={meal.strMeal} width="150" />
+                </Link>
                 <h3>{meal.strMeal}</h3>
               </li>
             ))}
@@ -70,4 +73,3 @@ const MealsByCategoryComponent = () => {
 };
 
 export default MealsByCategoryComponent;
- 

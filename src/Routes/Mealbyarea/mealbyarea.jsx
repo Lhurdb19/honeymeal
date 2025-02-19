@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import useMealsByArea from "../../Lib/useMeanByArea";
 import "./Mealbyarea.css";
 
@@ -26,7 +27,7 @@ const MealsByAreaComponent = () => {
 
       <ul className="areameal-wrapper">
         {isLoading
-          ? Array.from({ length: 6 }).map((_, index) => (
+          ? Array.from({ length: 4 }).map((_, index) => (
               <li key={index} className="areameal-info skeleton">
                 <div className="skeleton-image"></div>
                 <div className="skeleton-text"></div>
@@ -35,7 +36,9 @@ const MealsByAreaComponent = () => {
           : meals.length > 0
           ? meals.map((meal) => (
               <li key={meal.idMeal} className="areameal-info">
-                <img src={meal.strMealThumb} alt={meal.strMeal} width="150" />
+                <Link to={`/meal/${meal.idMeal}`}>
+                  <img src={meal.strMealThumb} alt={meal.strMeal} />
+                </Link>
                 <h3>{meal.strMeal}</h3>
               </li>
             ))

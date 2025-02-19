@@ -1,10 +1,11 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import useMealCategories from "../../Lib/useMealCategory";
-import "./Mealcategories.css";
 import specialSample from "../../Assets/specialmeal.mp4";
 import privateRoom from "../../Assets/private.mp4";
 import chickenSample from "../../Assets/chicken.jpeg";
 import Reservation from "../Reservation/reservation";
+import "./Mealcategories.css";
 
 const MealCategoriesComponent = () => {
   const { categories, loading, error } = useMealCategories();
@@ -294,19 +295,33 @@ const MealCategoriesComponent = () => {
           </div>
         </div>
 
-        {loading && <p>Loading...</p>}
+        {loading && (
+          <ul className="meal-categories-wrapper">
+            {Array.from({ length: 10 }).map((_, index) => (
+              <li key={index} className="meal-categories-info skeleton">
+                <div className="skeleton-image"></div>
+                <div className="skeleton-text"></div>
+              </li>
+            ))}
+          </ul>
+        )}
+
         {error && <p>Error: {error}</p>}
-        {categories.length > 0 && (
+
+        {!loading && categories.length > 0 && (
           <ul className="meal-categories-wrapper">
             {categories.map((category) => (
               <li key={category.idCategory} className="meal-categories-info">
-                <img
-                  src={category.strCategoryThumb}
-                  alt={category.strCategory} />
-                  <div className="text">
-                <h3>{category.strCategory}</h3>
-                <p>{category.strCategoryDescription.substring(0, 100)}...</p>
-                  </div>
+                <Link to={`/meal/${category.idCategory}`}>
+                  <img
+                    src={category.strCategoryThumb}
+                    alt={category.strCategory}
+                  />
+                </Link>
+                <div className="text">
+                  <h3>{category.strCategory}</h3>
+                  <p>{category.strCategoryDescription.substring(0, 100)}...</p>
+                </div>
               </li>
             ))}
           </ul>

@@ -108,18 +108,24 @@
     overflow: hidden;
 }
 
-.mealby-info:hover > img {
-    scale: 1.1;
-    transition: all 0.3s ease-in-out;
-}
-
-.mealby-info > img {
+.mealby-info > a {
     width: 100%;
     height: 250px;
-    object-fit: cover;
     border-radius: 10px;
     transition: all 0.3s ease-in-out;
 }
+.mealby-info a img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .mealby-info img:hover {
+    transform: scale(1.1);
+  }
+  
 
 .mealby-info > h3 {
     font-size: 15px;
@@ -141,10 +147,19 @@
         height: fit-content;
     }
     
-    .mealby-info > img {
+    .mealby-info > a {
         width: 100%;
         height: fit-content;
+        border-radius: 10px;
+        transition: all 0.3s ease-in-out;
     }
+    .mealby-info a img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        cursor: pointer;
+        transition: transform 0.2s ease-in-out;
+      }
     
     .mealby-info > h3 {
         font-size: 12px;
