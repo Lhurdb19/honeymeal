@@ -21,7 +21,7 @@ function Navbar() {
   return (
     <>
       <div className="navbar-container">
-        <Link to="/">FRESHMEAL</Link>
+        <Link to="/">Honey Meal</Link>
       <div className={`nav-link ${isMobile ? "mobile active" : ""}`}>
        <li><Link to={'/'} onClick={handleIsMobile}>Home</Link></li>
        <li><Link to={'/about'} onClick={handleIsMobile}>About</Link></li>

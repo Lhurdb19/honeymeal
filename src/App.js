@@ -6,6 +6,7 @@ import Contact from "./Routes/Contacts/contact";
 import MealCategoriesComponent from "./Routes/Mealcategories/mealcategoriescomponent";
 import MealListsComponent from "./Routes/Meallist/meallistcomponent";
 import Footer from "./Routes/Footer/footer";
+import Cookies from "./Routes/Cookies/cookies";
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
         <Route path="/mealcategoriescomponent" element={<MealCategoriesComponent/>}/>
       </Routes>
       <Footer/>
+      <Cookies/>
     </Router>
   );
 }
