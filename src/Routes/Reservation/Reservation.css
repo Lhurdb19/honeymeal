@@ -72,7 +72,7 @@
     
     .reservation-overlay > .reserve-card {
         width: 100%;
-        /* height: 500px; */
+        height: fit-content;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -84,6 +84,7 @@
     
     .reservation-overlay > .reserve-card > span {
          width: 100%;
+         height: fit-content;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -125,7 +126,7 @@
     
     .reserve-card > span > form > input {
         width: 100%;
-        height: 38px;
+        height: 30px;
         border: 1px solid #7d7979;
         background-color: transparent;
         padding: 10px;
