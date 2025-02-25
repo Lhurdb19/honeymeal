@@ -22,7 +22,7 @@
 
 .special-video {
     width: 100%;
-    height: 600px;
+    height: 700px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,7 +34,7 @@
 }
 .special-video > .special-text {
     width: 100%;
-    height: 600px;
+    height: 700px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,16 +50,14 @@
     font-size: 40px;
     text-align: center;
     font-family: Strike;
-    color: #222;
-    text-shadow: 2px 2px 2px #F4BD50;
+    color: #fff;
 }
 
 .special-text > h2 {
     font-size: 30px;
     text-align: center;
     font-family: Monregular;
-    color: #222;
-    text-shadow: 2px 2px 2px #F4BD50;
+    color: #fff;
 }
 @media screen and (max-width:896px) {
     .special-video {
@@ -93,8 +91,8 @@
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
-    gap: 100px;
-    padding: 100px 50px;
+    gap: 70px;
+    padding: 100px;
     overflow: hidden;
 }
 @media screen and (max-width:896px) {
@@ -107,11 +105,11 @@
 
 .private-meal {
     width: 100%;
-    height: 600px;
+    height: 780px;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    border: 1px solid black;
+    border: 0.5px solid gray;
     overflow: hidden;
 }
 @media screen and (max-width:896px) {
@@ -152,8 +150,7 @@
     flex-direction: column;
     padding: 300px;
     position: absolute;
-    color: #222;
-    text-shadow: 2px 2px 2px #F4BD50;
+    color: #fff;
     overflow: hidden;
     text-align: center;
     gap: 50px;
@@ -169,11 +166,15 @@
 }
 
 .reserve-cont {
-    left: 45%;
+    left: 35%;
     position: relative;
-    z-index: 199;
+    z-index: 10;
     cursor: pointer;
 }
+.reserve-cont:hover {
+    background-color: antiquewhite;
+}
+
 @media screen and (max-width:896px) {
     .private-room {
         width: 100%;
@@ -336,19 +337,18 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    color: #222;
     gap: 20px;
 }
 
 .sitdown-image-text > h2 {
+    color: #fff;
     font-family: Strike;
     font-size: 30px;
-    text-shadow: 2px 2px 2px #F4BD50;
 }
 .sitdown-image-text > h1 {
     font-family: Strike;
     font-size: 25px;
-    text-shadow: 2px 2px 2px #F4BD50;
+    color: #fff;
 }
 @media screen and (max-width:896px) {
     .sitdown-image-text {
@@ -403,14 +403,12 @@
 .sitdown-appetizers > h2 {
     color: #222;
     font-size: 30px;
-    text-shadow: 2px 2px 2px #F4BD50;
 }
 
 .sitdown-appetizers > h5 {
     font-size: 17px;
     font-family: Montserrat;
     color: #222;
-    text-shadow: 2px 2px 2px #F4BD50;
 }
 
 .sitdown-appetizers > ul {
@@ -460,14 +458,12 @@
     font-family: Strike;
     color: #222;
     font-size: 30px;
-    text-shadow: 2px 2px 2px #F4BD50;
 }
 
 .sitdown-salad > h5 {
     font-size: 17px;
     font-family: Montserrat;
     color: #222;
-    text-shadow: 2px 2px 2px #F4BD50;
 }
 
 .sitdown-salad > ul {
@@ -518,7 +514,6 @@
 .sitdown-entrees > h1 {
     color: #222;
     font-size: 30px;
-    text-shadow: 2px 2px 2px #F4BD50;
     font-family: Strike;
 }
 @media screen and (max-width:896px) {
@@ -547,7 +542,6 @@
     font-size: 17px;
     font-family: Montserrat;
     color: #222;
-    text-shadow: 2px 2px 2px #F4BD50;
 }
 
 .sitdown-entrees > .fish-con > ul {
@@ -571,7 +565,6 @@
     font-size: 17px;
     font-family: Montserrat;
     color: #222;
-    text-shadow: 2px 2px 2px #F4BD50;
 }
 
 .sitdown-entrees > .poultry-con > ul {
@@ -594,7 +587,6 @@
     font-size: 17px;
     font-family: Montserrat;
     color: #222;
-    text-shadow: 2px 2px 2px #F4BD50;
 }
 
 .meat-con > ul {
@@ -619,7 +611,6 @@
 .sitdown-dessert > h2 {
     color: #222;
     font-size: 30px;
-    text-shadow: 2px 2px 2px #F4BD50;
     font-family: Strike;
 }
 @media screen and (max-width:896px) {
@@ -701,19 +692,17 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    color: #222;
+    color: #fff;
     gap: 20px;
 }
 
 .family-image-text > h2 {
     font-family: Strike;
     font-size: 30px;
-    text-shadow: 2px 2px 2px #F4BD50;
 }
 .family-image-text > h1 {
     font-family: Strike;
     font-size: 40px;
-    text-shadow: 2px 2px 2px #F4BD50;
 }
 
 @media screen and (max-width:896px) {
@@ -771,14 +760,12 @@
 .family-appetizers > h2 {
     color: #222;
     font-size: 30px;
-    text-shadow: 2px 2px 2px #F4BD50;
 }
 
 .family-appetizers > h5 {
     font-size: 17px;
     font-family: Montserrat;
     color: #222;
-    text-shadow: 2px 2px 2px #F4BD50;
 }
 
 .family-appetizers > ul {
@@ -808,7 +795,6 @@
     .family-appetizers > h5 {
         font-size: 15px;
         font-family: Montserrat;
-        text-shadow: 2px 2px 2px #F4BD50;
     }
     
     .family-appetizers > ul {
@@ -831,14 +817,12 @@
     font-family: Strike;
     color: #222;
     font-size: 30px;
-    text-shadow: 2px 2px 2px #F4BD50;
 }
 
 .family-salad > h5 {
     font-size: 17px;
     font-family: Montserrat;
     color: #222;
-    text-shadow: 2px 2px 2px #F4BD50;
 }
 
 .family-salad > ul {
@@ -862,13 +846,11 @@
     .family-salad > h2 {
         font-family: Strike;
         font-size: 30px;
-        text-shadow: 2px 2px 2px #F4BD50;
     }
     
     .family-salad > h5 {
         font-size: 15px;
         font-family: Montserrat;
-        text-shadow: 2px 2px 2px #F4BD50;
     }
     
     .family-salad > ul {
@@ -888,7 +870,6 @@
 .family-entree > h1 {
     color: #222;
     font-size: 30px;
-    text-shadow: 2px 2px 2px #F4BD50;
     font-family: Strike;
 }
 @media screen and (max-width:896px) {
@@ -899,7 +880,6 @@
     }
     .family-entree > h1 {
         font-size: 25px;
-        text-shadow: 2px 2px 2px #F4BD50;
         font-family: Strike;
     }
 }
@@ -915,7 +895,6 @@
     font-size: 17px;
     font-family: Montserrat;
     color: #222;
-    text-shadow: 2px 2px 2px #F4BD50;
 }
 
 .family-entree > .fish-con > ul {
@@ -938,7 +917,6 @@
     font-size: 17px;
     font-family: Montserrat;
     color: #222;
-    text-shadow: 2px 2px 2px #F4BD50;
 }
 
 .family-entree > .poultry-con > ul {
@@ -961,7 +939,6 @@
     font-size: 17px;
     font-family: Montserrat;
     color: #222;
-    text-shadow: 2px 2px 2px #F4BD50;
 }
 
 .meat-con > ul {
@@ -986,7 +963,6 @@
 .family-dessert > h2 {
     color: #222;
     font-size: 30px;
-    text-shadow: 2px 2px 2px #F4BD50;
     font-family: Strike;
 }
 
@@ -1008,7 +984,6 @@
     }
     .family-dessert > h2 {
         font-size: 25px;
-        text-shadow: 2px 2px 2px #F4BD50;
         font-family: Strike;
     }
     
@@ -1057,7 +1032,7 @@
 .meal-categories-wrapper {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     justify-content: flex-start;
     align-items: flex-start;
     gap: 40px;
@@ -1082,9 +1057,16 @@
     align-items: flex-start;
     flex-direction: column;
     gap: 10px;
-    background-color: rgba(244, 240, 240, 0.815);
+    background-color: rgba(229, 223, 223, 0.3);
     border-radius: 10px;
     overflow: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.meal-categories-info:hover {
+    transform: translateY(-5px);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 5px 0px 0px lightgray;
 }
 
 .meal-categories-info > a {

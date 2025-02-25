@@ -23,7 +23,8 @@
 .home-component {
     width: 100%;
     min-height: 100vh;
-    padding: 100px 50px;
+    padding:60px 100px;
+    gap: 50px;
 }
 
 .home-container {
@@ -38,7 +39,7 @@
 .home-container > video {
     left: 0%;
     width: 100%;
-    height: 600px;
+    height: 700px;
     object-fit: cover;
     position: relative;
 }
@@ -46,8 +47,8 @@
 .home-container > h1 {
     font-size: 40px;
     padding: 40px;
-    color: #222;
-    text-shadow: 2px 2px 2px #F4BD50;
+    color: #fff;
+    /* text-shadow: 2px 2px 2px #F4BD50; */
     position: absolute;
     text-align: center;
     font-family: Strike;
@@ -88,7 +89,7 @@
 
 .reserve-daily-menu-con {
     width: 100%;
-    height: 600px;
+    height: 700px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -165,16 +166,18 @@
 
 .about-us-con {
     width: 100%;
-    height: 600px;
+    height: 400px;
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     gap: 100px;
-    background-image: url(https://i.ibb.co/93cBcKw7/dinner.jpg);
+    border: 0.5px solid gray;
+    /* background-image: url(https://i.ibb.co/93cBcKw7/dinner.jpg); */
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
     padding: 40px;
+    font-weight: 400;
 }
 @media screen and (max-width:896px) {
     .about-us-con {
@@ -195,14 +198,15 @@
     gap: 10px;
 }
 .about-text > h2 {
-    font-size: 20px;
-    color: #fff;
+    font-size: 30px;
+    color: #222;
     font-family: Strike;
+    font-weight: 400;
 }
 .about-text > p {
     font-size: 17px;
     line-height: 2.5rem;
-    color: #fff;
+    color: #222;
     font-family: Montserrat;
 }
 @media screen and (max-width:896px) {
@@ -221,8 +225,8 @@
     .about-text > p {
         font-size: 17px;
         line-height: 1.5rem;
-        color: #fff;
-        font-weight: 700;
+        /* color: #fff; */
+        font-weight: 400;
         font-family: Montserrat;
     }
 }
@@ -234,11 +238,10 @@
     align-items: flex-start;
     flex-direction: column;
     gap: 30px;
-    color: #fff;
+    color: #3c3b3b;
 }
 .open-text > h2 {
-    font-size: 50px;
-    color: #fff;
+    font-size: 30px;
     font-family: Strike;
 }
 
@@ -250,13 +253,13 @@
     gap: 40px;
 }
 .open-text > span > h1 {
-    font-size: 35px;
-    color: #fff;
+    font-size: 20px;
+    /* color: #fff; */
     font-family: Strike;
 }
 .open-text > span > h3 {
-    font-size: 25px;
-    color: #fff;
+    font-size: 20px;
+    /* color: #fff; */
     font-family: Strike;
 }
 
@@ -264,7 +267,7 @@
     .open-text {
         width: 100%;
         display: none;
-        color: #fff;
+        /* color: #fff; */
     }
     .open-text > h2 {
         display: none;
@@ -290,8 +293,8 @@
 
 .our-meal-by-category > h1 {
     font-size: 40px;
-    color: #222;
-    text-shadow: 2px 2px 2px #F4BD50;
+    color: #fff;
+    /* text-shadow: 2px 2px 2px #F4BD50; */
     position: absolute;
     text-align: center;
     font-family: Strike;

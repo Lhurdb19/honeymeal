@@ -12,16 +12,17 @@
     justify-content: space-between;
     align-items: center;
     gap: 40px;
-    padding: 20px 50px;
+    padding: 20px 100px;
     position: fixed;
     z-index: 120;
-    background-color: black;
+    background-color: #693729;
 }
 
 .navbar-container > a {
     font-size: 30px;
     color: #fff;
     text-shadow: 2px 2px 2px #F4BD50;
+    font-family: Montserrat;
 }
 
 .nav-link {
@@ -40,6 +41,8 @@
 
 .nav-link > li > a {
     color: #fff;
+    font-weight: 400;
+    font-family: Montserrat;
 }
 
 @media screen and (max-width:896px) {

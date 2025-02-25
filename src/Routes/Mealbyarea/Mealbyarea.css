@@ -1,217 +1,224 @@
 * {
-    padding: 0%;
-    margin: 0%;
-    box-sizing: border-box;
-    text-decoration: none;
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  text-decoration: none;
 }
 
 @font-face {
-    font-family: Strike;
-    src: url(/src/Assets/Protest_Strike/ProtestStrike-Regular.ttf);
+  font-family: Strike;
+  src: url(/src/Assets/Protest_Strike/ProtestStrike-Regular.ttf);
 }
 
 @font-face {
-    font-family: Montserrat;
-    src: url(/src/Assets/Montserrat-Light.ttf);
+  font-family: Montserrat;
+  src: url(/src/Assets/Montserrat-Light.ttf);
 }
 
 @font-face {
-    font-family: Monregular;
-    src: url(/src/Assets/Montserrat/static/Montserrat-Regular.ttf);
+  font-family: Monregular;
+  src: url(/src/Assets/Montserrat/static/Montserrat-Regular.ttf);
 }
 
 .areameal-component {
-    width: 100%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-direction: column;
-    gap: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 30px;
 }
 
 .areameal-component > h2 {
-    font-size: 25px;
+  font-size: 25px;
+  font-family: Strike;
+}
+@media screen and (max-width: 896px) {
+  .areameal-component {
+    width: 100%;
+    min-height: fit-content;
+    gap: 20px;
+  }
+
+  .areameal-component > h2 {
+    font-size: 20px;
     font-family: Strike;
-} 
-@media screen and (max-width:896px) {
-    .areameal-component {
-        width: 100%;
-        min-height: fit-content;
-        gap: 20px;
-    }
-    
-    .areameal-component > h2 {
-        font-size: 20px;
-        font-family: Strike;
-    } 
+  }
 }
 
 .meal-link {
-    text-decoration: none;
-    color: #d35400; /* Change color to fit your theme */
-    font-weight: bold;
-  }
-  
-  .meal-link:hover {
-    text-decoration: underline;
-  }
-  
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.meal-link:hover {
+  text-decoration: underline;
+}
 
 .select-area-container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+
+.select-area-container > label {
+  font-size: 16px;
+  font-family: Monregular;
+}
+
+.select-area-container > select {
+  width: 300px;
+  padding: 5px;
+  border: 1px solid lightgray;
+  outline: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+@media screen and (max-width: 896px) {
+  .select-area-container {
     width: 100%;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    gap: 10px;
-}
+    gap: 5px;
+  }
 
-.select-area-container > label {
-    font-size: 19px;
+  .select-area-container > label {
+    font-size: 13px;
     font-family: Monregular;
-}
+  }
 
-.select-area-container > select {
-    width: 300px;
+  .select-area-container > select {
+    width: 100%;
     padding: 5px;
-    border: 1px solid gray;
-    outline: none;
-    padding: 10px;
-    border-radius: 10px;
-}
-@media screen and (max-width:896px) {
-    .select-area-container {
-        width: 100%;
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        gap: 5px;
-    }
-    
-    .select-area-container > label {
-        font-size: 13px;
-        font-family: Monregular;
-    }
-    
-    .select-area-container > select {
-        width: 100%;
-        padding: 5px;
-    }
+  }
 }
 
 .areameal-wrapper {
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    justify-content: flex-start;
-    align-items: flex-start;
-    gap: 40px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 40px;
 }
 
 .areameal-info {
-    width: 100%;
-    height: 300px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-direction: column;
-    gap: 15px;
-    overflow: hidden;
-    border-radius: 10px;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 10px;
+  overflow: hidden;
+  background-color: rgba(229, 223, 223, 0.3);
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.areameal-info:hover {
+    transform: translateY(-5px);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 3px 0px 0px lightgray;
 }
 
 .areameal-info > a {
+  width: 100%;
+  height: 250px;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+  overflow: hidden;
+}
+
+.areameal-info > a > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.areameal-info img:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.areameal-info > h3 {
+  font-size: 13px;
+  font-family: Monregular;
+  font-weight: 400;
+  padding-left: 10px;
+}
+
+@media screen and (max-width: 896px) {
+  .areameal-wrapper {
     width: 100%;
-    height: 250px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 30px 20px;
+  }
+
+  .areameal-info {
+    width: 100%;
+    height: fit-content;
+  }
+
+  .areameal-info > a {
+    width: 100%;
+    height: fit-content;
     border-radius: 10px;
     transition: all 0.3s ease-in-out;
     overflow: hidden;
-}
+  }
 
-.areameal-info a img {
+  .areameal-info a img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     cursor: pointer;
     transition: transform 0.2s ease-in-out;
   }
-  
-  .areameal-info img:hover {
-    transform: scale(1.1);
-  }
-  
 
-.areameal-info > h3 {
-    font-size: 15px;
+  .areameal-info > h3 {
+    font-size: 12px;
     font-family: Monregular;
+  }
 }
-
-@media screen and (max-width:896px) {
-    .areameal-wrapper {
-        width: 100%;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        justify-content: flex-start;
-        align-items: flex-start;
-        gap: 30px 20px;
-    }
-    
-    .areameal-info {
-        width: 100%;
-        height: fit-content;
-    }
-    
-    .areameal-info > a {
-        width: 100%;
-        height: fit-content;
-        border-radius: 10px;
-        transition: all 0.3s ease-in-out;
-        overflow: hidden;
-    }
-    
-    .areameal-info a img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        cursor: pointer;
-        transition: transform 0.2s ease-in-out;
-      }
-    
-    .areameal-info > h3 {
-        font-size: 12px;
-        font-family: Monregular;
-    }
-}
-
 
 /* Skeleton Loading Effect */
 .skeleton {
-    background: rgba(255, 255, 255, 0.1);
-    animation: pulse 1.5s infinite;
+  background: rgba(255, 255, 255, 0.1);
+  animation: pulse 1.5s infinite;
 }
 
 .skeleton-image {
-    width: 100%;
-    height: 200px;
-    background: rgba(255, 255, 255, 0.2);
-    border-radius: 5px;
+  width: 100%;
+  height: 200px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
 }
 
 .skeleton-text {
-    width: 80%;
-    height: 20px;
-    margin-top: 10px;
-    background: rgba(255, 255, 255, 0.2);
-    border-radius: 5px;
+  width: 80%;
+  height: 20px;
+  margin-top: 10px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
 }
 
 @keyframes pulse {
-    0% {
-        opacity: 0.6;
-    }
-    50% {
-        opacity: 1;
-    }
-    100% {
-        opacity: 0.6;
-    }
+  0% {
+    opacity: 0.6;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.6;
+  }
 }

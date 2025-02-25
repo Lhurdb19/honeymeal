@@ -22,7 +22,7 @@
 
 .video-view {
     width: 100%;
-    height: 600px;
+    height: 700px;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
@@ -36,7 +36,7 @@
 
 .meal-text {
     width: 100%;
-    height: 600px;
+    height: 700px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -49,15 +49,13 @@
 
 .meal-text > h1 {
     font-size: 40px;
-    color: #222;
-    text-shadow: 2px 2px 2px #F4BD50;
+    color: #fff;
     text-align: center;
     font-family: Strike;
 }
 .meal-text > h2 {
     font-size: 30px;
-    color: #222;
-    text-shadow: 2px 2px 2px #F4BD50;
+    color: #fff;
     text-align: center;
     font-family: Monregular;
 }
@@ -87,13 +85,11 @@
     
     .meal-text > h1 {
         font-size: 25px;
-        text-shadow: 2px 2px 2px #F4BD50;
         text-align: center;
         font-family: Strike;
     }
     .meal-text > h2 {
         font-size: 20px;
-        text-shadow: 2px 2px 2px #F4BD50;
         text-align: center;
         font-family: Monregular;
     }
@@ -101,12 +97,13 @@
 
 .meallist-component {
     width: 100%;
+    min-height: 100vh;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
     gap: 100px;
-    padding:  50px;
+    padding:  50px 100px;
 }
 @media screen and (max-width:896px) {
     .meallist-component {
@@ -153,7 +150,6 @@
     font-size: 40px;
     font-family: Monregular;
     /* color: #222; */
-    text-shadow: 2px 2px 2px #F4BD50;
 }
 @media screen and (max-width:896px) {
     .category-con {
@@ -186,7 +182,6 @@
 .area-con > h3 {
     font-size: 40px;
     font-family: Monregular;
-    text-shadow: 2px 2px 2px #F4BD50;
 }
 @media screen and (max-width:896px) {
     .area-con {
@@ -218,7 +213,6 @@
 .ingredient-con > h3 {
     font-size: 40px;
     font-family: Monregular;
-    text-shadow: 2px 2px 2px #F4BD50;
 }
 @media screen and (max-width:896px) {
     .ingredient-con {
@@ -226,7 +220,6 @@
         height: fit-content;
         padding: 10px;
         color: #fff;
-        text-shadow: 2px 2px 2px #F4BD50;
     } 
     .ingredient-con > h3 {
         font-size: 30px;
@@ -287,7 +280,6 @@
     font-size: 50px;
     font-family: Strike;
     color: #fff;
-    text-shadow: 2px 2px 2px #F4BD50;
 }
 @media screen and (max-width:896px) {
     .options-container {
@@ -324,7 +316,6 @@
     font-size: 45px;
     font-family: Monregular;
     color: #fff;
-    text-shadow: 2px 2px 2px #F4BD50;
 }
 .appet-text > p {
     font-size: 16px;
@@ -363,7 +354,6 @@
         font-size: 25px;
         font-family: Monregular;
         color: #fff;
-        text-shadow: 2px 2px 2px #F4BD50;
     }
     .appet-text > p {
         font-size: 16px;
@@ -404,7 +394,6 @@
     font-size: 45px;
     font-family: Monregular;
     color: #fff;
-    text-shadow: 2px 2px 2px #F4BD50;
 }
 .desse-text > p {
     font-size: 16px;
@@ -480,7 +469,6 @@
     font-size: 45px;
     font-family: Monregular;
     color: #fff;
-    text-shadow: 2px 2px 2px #F4BD50;
 }
 .ent-text > p {
     font-size: 16px;
